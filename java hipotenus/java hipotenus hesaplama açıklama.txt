@@ -1,0 +1,5 @@
+calculateHypotenuse fonksiyonu, Pythagoras teoremine göre hipotenüsü hesaplar. Math.sqrt fonksiyonu karekök alma işlemini gerçekleştirir, Math.pow fonksiyonu ise bir sayının üssünü hesaplar.
+
+Kodun çalışması için java.util.Scanner sınıfını kullanarak kullanıcıdan giriş alınmıştır. 
+
+Discord:https://discord.gg/WRWEk6jKG7
