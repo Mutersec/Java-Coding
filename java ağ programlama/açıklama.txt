@@ -1,0 +1,5 @@
+Yukarıdaki kod örneği, istemci ve sunucu arasında TCP/IP protokolünü kullanarak iletişim kurar. İstemci, "localhost" adresine ve 8080 numaralı porta bağlanır. İstemci bir mesaj girdikten sonra, sunucuya mesaj gönderir ve sunucudan bir cevap alır. Sunucu, istemciden gelen mesajı alır ve "Mesajınızı aldım." şeklinde bir yanıt gönderir.
+
+Bu kod parçacıkları, temel ağ programlaması kavramlarını göstermek için basit bir örnektir. Gerçek dünya uygulamalarında daha karmaşık ağ protokolleri ve işlemler kullanılabilir.
+
+Discord:https://discord.gg/WRWEk6jKG7
