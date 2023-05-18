@@ -91,4 +91,38 @@ public class SnakeGame extends Application {
         }
 
         // Yılanın kendine çarpmasını kontrol et
-        // TODO: Yılanın kendine çarpm
+        // TODO: Yılanın kendine çarpmasını kontrol et
+
+        // Yılanın elmayı yemesini kontrol et
+        if (snakeX == appleX && snakeY == appleY) {
+            score++;
+            generateApple();
+        }
+    }
+
+    private void generateApple() {
+        appleX = (int) (Math.random() * GRID_WIDTH);
+        appleY = (int) (Math.random() * GRID_HEIGHT);
+
+        // Elmanın düşmesi gereken yerde yılanın olduğu durumu kontrol et
+        // TODO: Elmanın düşmesi gereken yerde yılanın olduğu durumu kontrol et
+    }
+
+    private void draw(GraphicsContext gc) {
+        // Oyun alanını temizle
+        gc.setFill(Color.BLACK);
+        gc.fillRect(0, 0, WIDTH, HEIGHT);
+
+        // Yılanı çiz
+        gc.setFill(Color.GREEN);
+        gc.fillRect(snakeX * CELL_SIZE, snakeY * CELL_SIZE, CELL_SIZE, CELL_SIZE);
+
+        // Elmayı çiz
+        gc.setFill(Color.RED);
+        gc.fillRect(appleX * CELL_SIZE, appleY * CELL_SIZE, CELL_SIZE, CELL_SIZE);
+
+        // Puanı çiz
+        gc.setFill(Color.WHITE);
+        gc.fillText("Score: " + score, 10, 20);
+    }
+}
