@@ -1,0 +1,5 @@
+Oyuna başlamak için MinesweeperGame sınıfının main metodu kullanılır. Oyun sırasında kullanıcıdan satır ve sütun koordinatları alınır. Koordinatlar geçerliyse, eğer o hücrede bir mayın varsa oyun kaybedilir, aksi takdirde hücre açılır ve oyunun kazanılıp kazanılmadığı kontrol edilir.
+
+Oyun tahtası ve oyunun ilerleyişi sırasında printBoard, revealCell, revealAdjacentCells, countAdjacentMines, checkWin, revealBoard gibi yardımcı metotlar kullanılır.
+
+Discord:https://discord.gg/WRWEk6jKG7
